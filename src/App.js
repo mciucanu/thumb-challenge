@@ -1,15 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {VideoThumb} from './components';
+import './css/tailwind.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Hello World!
-        </p>
-      </header>
+    <div className="m-6">
+       <VideoThumb />
     </div>
   );
 }
